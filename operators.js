@@ -13,15 +13,15 @@ FizzBuzz(4) ➞ "4"
 */
 
 function FizzBuzz(num) {
-	if (num % 3 === 0 && num % 5 === 0) {
-		return 'FizzBuzz'
-	} if (num % 3 === 0) {
-		return 'Fizz'
-	} if (num % 5 === 0) {
-		return 'Buzz'
-	} else {
-		return num.toString();
-	}
+    if (num % 3 === 0 && num % 5 === 0) {
+	return 'FizzBuzz'
+    } if (num % 3 === 0) {
+	return 'Fizz'
+    } if (num % 5 === 0) {
+	return 'Buzz'
+    } else {
+	return num.toString();
+    }
 }
 
 //testing our function by calling it 
